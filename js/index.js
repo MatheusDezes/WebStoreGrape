@@ -6,7 +6,7 @@ window.addEventListener("scroll", function(){
 //======Rolagem hedaer window/========//
 
 //======Swiper card========//
-    var swiper = new Swiper(".produtos-selection", {
+var swiper1 = new Swiper(".produtos-selection", {
     navigation: {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
@@ -20,7 +20,7 @@ window.addEventListener("scroll", function(){
     },
     breakpoints: {
       320: {
-        slidesPerView: 2,
+        slidesPerView: 1.3,
         spaceBetween: 20,
       },
       500: {
@@ -28,7 +28,7 @@ window.addEventListener("scroll", function(){
         spaceBetween: 20,
       },
       640: {
-        slidesPerView: 3,
+        slidesPerView: 2,
         spaceBetween: 25,
       },
       768: {
@@ -48,7 +48,7 @@ window.addEventListener("scroll", function(){
 //======Swiper card========//
 
 //======Swiper loja========//
-var swiper = new Swiper(".loja", {
+var swiper2 = new Swiper(".loja", {
   slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
@@ -59,7 +59,7 @@ var swiper = new Swiper(".loja", {
 
   breakpoints: {
   320: {
-    slidesPerView: 2,
+    slidesPerView: 1.3,
     spaceBetween: 10,
   },
   500: {
@@ -81,3 +81,39 @@ var swiper = new Swiper(".loja", {
 },
 });
 //======Swiper loja========//
+
+//======Swiper loja2========//
+var swiper3 = new Swiper(".loja2", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-button-next",
+    prevEl: ".swiper-button-prev",
+  },
+
+  breakpoints: {
+  320: {
+    slidesPerView: 1.2,
+    spaceBetween: 10,
+  },
+  500: {
+    slidesPerView: 2,
+    spaceBetween: 5,
+  },
+  640: {
+    slidesPerView: 2,
+    spaceBetween: 10,
+  },
+  768: {
+    slidesPerView: 3,
+    spaceBetween: 10,
+  },
+  1024: {
+    slidesPerView: 3.5,
+    spaceBetween: 25,
+  },
+},
+});
+//======Swiper loja2========//
+

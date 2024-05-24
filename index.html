@@ -22,13 +22,14 @@
    <!-------header-------> 
 <header id="header">
     <nav class="nav-container"><!--nav-->
+      <a href="#"><img src="images/backgrounds/logo-grape-back.webp" alt="Grape│Store" style="width: 98px; height: 32px;"></a>
         <ul class="list-header"><!--list-header-->
-            <li><a href="#"><img src="images/backgrounds/logo-grape-back.webp" alt="Grape│Store" style="width: 98px; height: 32px;"></a></li>
+          <li class="mobile-menu"><i class="bi bi-list"></i></li>
             <li><a href="#">Incio</a></li>
             <li><a href="#eletronicos-menu">Eletrônicos</a></li>
-            <li><a href="#">Loja</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Suporte</a></li>
+            <li><a href="#loja">Loja</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#suporte">Suporte</a></li>
             <li><a href="#"><span class="icon-search" id="icon-search"><i class="bi bi-search"></i></span></a></li>
             <li><a href="#"><span class="icon-cart" id="icon-cart"><i class="bi bi-bag"></i></span></a></li>
         </ul><!--list-header-->
@@ -110,12 +111,12 @@
         <button class="btn-comprar-tendencia">Comprar</button>
     </div><!--destaque-tendencias-->
     </div><!--container-destaque-->
-</div><!--base-tendencias-->
+  </div><!--base-tendencias-->
 </section>
 <!------Tendencias------->
 
 <!---------Loja---------->
-<article class="title-loja"><h3>Loja. <b>Com os melhores <br>preços</b></h3></article><!--title-loja--> 
+<article class="title-loja"><h3 id="loja">Loja. <b>Com os melhores <br>preços</b></h3></article><!--title-loja--> 
 <section class="loja swiper">
   <div class="loja-container swiper-wrapper">
     <div class="loja-card swiper-slide">
@@ -161,13 +162,123 @@
 <!---------Loja---------->
 
 <!---------Anuncio IA---------->
-
+<section class="anuncio">
+  <div class="container-anuncio">
+    <article class="anuncio-content">
+      <h5>20% DESCONTO, CONFIRA!</h5>
+      <h3>Grape Inteligência<br> Artificial</h3>
+      <button class="btn-anuncio" id="btn-anuncio">Confira</button>
+    </article><!--anuncio-content-->
+    <article class="container-image">
+    <img src="images/produtos/ai_grape.webp" alt="image" id="ia-img-anuncio">
+    </article>
+  </div><!--container-anuncio-->
+</section>
 <!---------Anuncio IA---------->
 
-<div class="teste"></div>
+<!---------Loja 2---------->
+<section class="loja2 swiper">
+  <div class="loja-container2 swiper-wrapper">
+    <div class="loja-card-2 swiper-slide">
+      <article class="loja-card-content2">
+        <a href="#">
+            <img src="images/produtos/headphone_grape.webp" alt="image" id="boom-img-loja2">
+            <h4>Boom Box</h4>
+            <p><b>R$ 959</b>  $239</p>
+        </a>
+      </article><!--loja-card-content-->
+    </div><!--loja-card-->
+    <div class="loja-card3 swiper-slide">
+      <article class="loja-card-content2">
+        <a href="#">
+            <img src="images/produtos/grapebox.webp" alt="image" id="grapebox-img-loja2">
+            <h4>GrapeBox S</h4>
+            <p><b>R$ 2,599</b>  $1,299</p>
+        </a>
+      </article><!--loja-card-content-->
+    </div><!--loja-card-->
+    <div class="loja-card-2 swiper-slide">
+      <article class="loja-card-content2">
+        <a href="#">
+            <img src="images/produtos/impressora_grape.webp" alt="image" id="impressora-img-loja2">
+            <h4>Impressora GP</h4>
+            <p><b>R$ 1,299</b>  $569</p>
+        </a>
+      </article><!--loja-card-content-->
+    </div><!--loja-card-->
+    <div class="loja-card3 swiper-slide">
+      <article class="loja-card-content2">
+        <a href="#">
+            <img src="images/produtos/controle_grape.webp" alt="image" id="controle-img-loja2">
+            <h4>Controle Gbox S</h4>
+            <p><b>R$ 299</b>  $129</p>
+        </a>
+      </article><!--loja-card-content-->
+    </div><!--loja-card-->
+  </div>
+  <div class="button-right-loja2 swiper-button-next"><i class="bi bi-arrow-right-circle-fill"></i></div><!--swiper-button-next-->
+  <div class="button-left-loja2 swiper-button-prev"><i class="bi bi-arrow-left-circle-fill"></i></div><!--swiper-button-prev-->
+</section>
+<!---------Loja 2---------->
+
+<!---------Sobre---------->
+<article class="title-sobre" id="sobre"><h3><b>Quem</b> SOMOS?</h3></article><!--title-sobre---> 
+<section class="sobre">
+  <div class="container-sobre">
+    <article class="content-sobre">
+      <h3>Grape</h3>
+      <p>Lorem Ipsum é simplesmente um texto fictício da indústria de impressão e composição tipográfica. Lorem Ipsum tem sido o texto fictício padrão da indústria desde 1500, quando um impressor desconhecido pegou uma prova de tipos e a misturou para fazer um livro de espécimes de tipos. Ela sobreviveu não apenas a cinco séculos, mas também ao salto para a composição tipográfica eletrônica, permanecendo essencialmente inalterada. Foi popularizado na década de 1960 com o lançamento</p>
+    </article><!--content-sobre-->
+    <article class="container-image-sobre">
+      <img src="images/backgrounds/Sign_Mockup.png" alt="image" id="grape-img-sobre">
+    </article>
+  </div><!--container-sobre-->
+</section>
+<!---------Sobre---------->
+<footer class="footer" id="suporte">
+  <article class="logo-footer"><img src="images/backgrounds/logo-name.webp" alt=""><i class="bi bi-send-arrow-down-fill"></i></article><!--logo-footer-->
+  <div class="container-footer">
+    <ul class="footer-list">
+      <li><b>Descobrir e Comprar</b></li>
+      <li><a href="#">Inicio</a></li>
+      <li><a href="#">Eletrônicos</a></li>
+      <li><a href="#">Loja</a></li>
+      <li><a href="#">Sobre</a></li>
+      <li><a href="#">Suporte</a></li>
+    </ul><!--footer-list-->
+    <ul class="footer-list">
+      <li><b>Valores da Grape</b></li>
+      <li><a href="#">Acessibilidade</a></li>
+      <li><a href="#">Educação</a></li>
+      <li><a href="#">Meio ambiente</a></li>
+      <li><a href="#">Privacidade</a></li>
+      <li><a href="#">Responsabilidade</a></li>
+    </ul><!--footer-list-->
+    <ul class="footer-list">
+      <li><b>Contatos Desenvolvedor</b></li>
+      <li><a href="#">GitHub</a></li>
+      <li><a href="#">Linkedln</a></li>
+      <li><a href="#">Gmail</a></li>
+      <li><a href="#">Portfolio</a></li>
+      <li><a href="#">Repositorio</a></li>
+    </ul><!--footer-list-->
+    <ul class="footer-list">
+      <li><b>Pedidos</b></li>
+      <li><a href="#">Carrinho</a></li>
+      <li><a href="#">Gerenciamento</a></li>
+      <li><a href="#">Reclamação</a></li>
+      <li><a href="#">Feadback</a></li>
+      <li><a href="#">Acompanhamento</a></li>
+    </ul><!--footer-list-->
+  </div><!--container-footer-->
+</footer>
+<footer class="copyright"><p>Copyright © 2024 Grape / Matheus Dezes. Todos os direitos reservado.</p></footer>
 <!--------Swiper--------> 
-   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-   <!-------JavaScript-------> 
-   <script src="js/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<!-------Mobile-menu-jst-------> 
+<script src="js/mobile-menu.js"></script>
+<!-------JavaScript-------> 
+<script src="js/index.js"></script>
+
 </body>
 </html>
