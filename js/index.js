@@ -12,7 +12,7 @@ var swiper1 = new Swiper(".produtos-selection", {
       prevEl: ".swiper-button-prev",
     },
 
-    slidesPerView: 1,
+    slidesPerView: 5,
     spaceBetween: 10,
     pagination: {
       el: ".swiper-pagination",
@@ -49,7 +49,7 @@ var swiper1 = new Swiper(".produtos-selection", {
 
 //======Swiper loja========//
 var swiper2 = new Swiper(".loja", {
-  slidesPerView: 1,
+  slidesPerView: 3.7,
   spaceBetween: 30,
   loop: true,
   navigation: {
@@ -75,7 +75,7 @@ var swiper2 = new Swiper(".loja", {
     spaceBetween: 15,
   },
   1024: {
-    slidesPerView: 3.5,
+    slidesPerView: 3.7,
     spaceBetween: 30,
   },
 },
@@ -84,7 +84,7 @@ var swiper2 = new Swiper(".loja", {
 
 //======Swiper loja2========//
 var swiper3 = new Swiper(".loja2", {
-  slidesPerView: 1,
+  slidesPerView: 3.5,
   spaceBetween: 30,
   loop: true,
   navigation: {

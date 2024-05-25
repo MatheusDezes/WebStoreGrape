@@ -1,18 +1,18 @@
 //======Header Responsivo========//
 class mobileNavbar {
-    constructor(mobileMenu) {
-      this.mobileMenu = document.querySelector(mobileMenu);
+    constructor(biList, listHeader, navLinks) {
+      this.biList = document.querySelector(biList);
       this.listHeader = document.querySelector(listHeader);
-      this.navLiks = document.querySelector(navLiks);
+      this.navLiks = document.querySelector(navLinks);
       this.activeClass = "active";
     }
   
     addClickEvent() {
-      this.mobileMenu.addEventListener("click", () => console.log(HeyCarai));
+      this.biList.addEventListener("click", () => console.log(Heyaadadad));
     }
   
     init() {
-      if(this.mobileMenu) {
+      if(this.biList) {
         this.addClickEvent();
       }
       return this;
