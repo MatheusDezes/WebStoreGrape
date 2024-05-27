@@ -3,6 +3,7 @@ window.addEventListener("scroll", function(){
     var header = document.querySelector('#header')
     header.classList.toggle('scroll',window.scrollY > 0)
 })
+
 //======Rolagem hedaer window/========//
 
 //======Swiper card========//
@@ -12,7 +13,7 @@ var swiper1 = new Swiper(".produtos-selection", {
       prevEl: ".swiper-button-prev",
     },
 
-    slidesPerView: 5,
+    slidesPerView: 1,
     spaceBetween: 10,
     pagination: {
       el: ".swiper-pagination",
@@ -49,7 +50,7 @@ var swiper1 = new Swiper(".produtos-selection", {
 
 //======Swiper loja========//
 var swiper2 = new Swiper(".loja", {
-  slidesPerView: 3.7,
+  slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
   navigation: {
@@ -84,7 +85,7 @@ var swiper2 = new Swiper(".loja", {
 
 //======Swiper loja2========//
 var swiper3 = new Swiper(".loja2", {
-  slidesPerView: 3.5,
+  slidesPerView: 1,
   spaceBetween: 30,
   loop: true,
   navigation: {

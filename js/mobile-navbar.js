@@ -1,28 +1,25 @@
-//======Header Responsivo========//
-class mobileNavbar {
-    constructor(biList, listHeader, navLinks) {
-      this.biList = document.querySelector(biList);
-      this.listHeader = document.querySelector(listHeader);
-      this.navLiks = document.querySelector(navLinks);
-      this.activeClass = "active";
-    }
+//======Navbar Mobile========//
+  const hamburger = document.querySelector(".hamburger");
   
-    addClickEvent() {
-      this.biList.addEventListener("click", () => console.log(Heyaadadad));
-    }
+  const listHeader = document.querySelector(".list-header");
+
+  hamburger.addEventListener("click", () => 
+  listHeader.classList.toggle("active"));
   
-    init() {
-      if(this.biList) {
-        this.addClickEvent();
-      }
-      return this;
-    }
-  }
+
+  const search = document.querySelector(".icon-search");
   
-  const mobileNavbar = new mobileNavbar(
-    ".mobile-menu",
-    ".list-header",
-    ".list-header li",
-  );
-  mobileNavbar.init();
-  //======Header Responsivo/========//
+  const containerSearch = document.querySelector(".container-search");
+  
+  search.addEventListener("click", () => 
+    containerSearch.classList.toggle("open"));
+  
+  
+  const openshow = document.querySelector(".openshow");
+  
+  const listHeader2 = document.querySelector(".list-header");
+  
+  openshow.addEventListener("click", () => 
+    listHeader2.classList.toggle("active"));
+  
+  //======Navbar Mobile/========//

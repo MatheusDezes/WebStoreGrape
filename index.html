@@ -23,23 +23,32 @@
 <header id="header">
     <nav class="nav-container"><!--nav-->
       <div class="logo-mobile"><a href="#"><img src="images/backgrounds/logo-grape-back.webp" alt="Grape│Store" style="width: 98px; height: 32px;"></a></div><!--logo-mobile-->
-      <div class="mobile-menu"><i class="bi bi-list"></i>
-      <span class="icon-search-mobile" id="icon-search-mobile"><i class="bi bi-search"></i></span>
+      <div class="mobile-icons">
+      <span class="icon-search-mobile openshow" id="icon-search-mobile"><i class="bi bi-search"></i></span>
       <span class="icon-cart-mobile" id="icon-cart-mobile"><i class="bi bi-bag"></i></span>
+      <button class="hamburger"></button>
     </div><!--mobile-menu-->
       <ul class="list-header"><!--list-header-->
         <li><a href="#"><img src="images/backgrounds/logo-grape-back.webp" alt="Grape│Store" style="width: 98px; height: 32px;"></a></li>
-        <li><a href="#">Incio</a></li>
+            <!--pesquisa-mobile-->
+            <li><div class="icon-search-mobile"><i class="bi bi-search"></i></div>
+            <input type="text" class="mobile-search search" placeholder="Buscar em Grape.com"></li>
+            <!--pesquisa-mobile-->
+            <li><a href="#">Incio</a></li>
             <li><a href="#eletronicos-menu">Eletrônicos</a></li>
             <li><a href="#loja">Loja</a></li>
             <li><a href="#sobre">Sobre</a></li>
             <li><a href="#suporte">Suporte</a></li>
-            <li><a href="#"><span class="icon-search" id="icon-search"><i class="bi bi-search"></i></span></a></li>
+            <li><span class="icon-search" id="icon-search"><i class="bi bi-search"></i></span></li>
             <li><a href="#"><span class="icon-cart" id="icon-cart"><i class="bi bi-bag"></i></span></a></li>
-        </ul><!--list-header-->
-    </nav><!--nav-->
-</header>
-   <!-------header/-------> 
+          </ul><!--list-header-->
+          <div class="container-search">
+          <div class="icon-search-2"><i class="bi bi-search"></i></div>
+          <input type="text" class="search" placeholder="Buscar em Grape.com">
+        </div><!--container-search-->
+      </nav><!--nav-->
+    </header>
+    <!-------header/-------> 
 
    <!-------Page1-------> 
 <section class="page1">
@@ -153,13 +162,13 @@
     <div class="loja-card2 swiper-slide">
       <article class="loja-card-content">
         <a href="#">
-            <img src="images/produtos/powerbrank_grape.webp" alt="image" id="power-img-loja">
-            <h4>Power Bank Grape</h4>
-            <p><b>R$ 999</b>  $399</p>
+            <img src="images/produtos/relogio_grape.webp" alt="image" id="gapdot-img-loja">
+            <h4>Gapdot</h4>
+            <p><b>R$ 299</b>  $99</p>
         </a>
       </article><!--loja-card-content-->
     </div><!--loja-card-->
-    <div class="loja-card2 swiper-slide">
+    <div class="loja-card swiper-slide">
       <article class="loja-card-content">
         <a href="#">
             <img src="images/produtos/powerbrank_grape.webp" alt="image" id="power-img-loja">
@@ -171,18 +180,9 @@
     <div class="loja-card2 swiper-slide">
       <article class="loja-card-content">
         <a href="#">
-            <img src="images/produtos/powerbrank_grape.webp" alt="image" id="power-img-loja">
-            <h4>Power Bank Grape</h4>
-            <p><b>R$ 999</b>  $399</p>
-        </a>
-      </article><!--loja-card-content-->
-    </div><!--loja-card-->
-    <div class="loja-card2 swiper-slide">
-      <article class="loja-card-content">
-        <a href="#">
-            <img src="images/produtos/powerbrank_grape.webp" alt="image" id="power-img-loja">
-            <h4>Power Bank Grape</h4>
-            <p><b>R$ 999</b>  $399</p>
+            <img src="images/produtos/mouse_grape.webp" alt="image" id="mousegap-img-loja">
+            <h4>MouseGap</h4>
+            <p><b>R$ 249</b>  $89</p>
         </a>
       </article><!--loja-card-content-->
     </div><!--loja-card-->
@@ -240,13 +240,13 @@
     <div class="loja-card3 swiper-slide">
       <article class="loja-card-content2">
         <a href="#">
-            <img src="images/produtos/controle_grape.webp" alt="image" id="controle-img-loja2">
-            <h4>Controle Gbox S</h4>
-            <p><b>R$ 299</b>  $129</p>
+            <img src="images/produtos/fone_grape.webp" alt="image" id="fonegap-img-loja2">
+            <h4>FoneGap B2</h4>
+            <p><b>R$ 299</b>  $99</p>
         </a>
       </article><!--loja-card-content-->
     </div><!--loja-card-->
-    <div class="loja-card3 swiper-slide">
+    <div class="loja-card-2 swiper-slide">
       <article class="loja-card-content2">
         <a href="#">
             <img src="images/produtos/controle_grape.webp" alt="image" id="controle-img-loja2">
@@ -258,18 +258,9 @@
     <div class="loja-card3 swiper-slide">
       <article class="loja-card-content2">
         <a href="#">
-            <img src="images/produtos/controle_grape.webp" alt="image" id="controle-img-loja2">
-            <h4>Controle Gbox S</h4>
-            <p><b>R$ 299</b>  $129</p>
-        </a>
-      </article><!--loja-card-content-->
-    </div><!--loja-card-->
-    <div class="loja-card3 swiper-slide">
-      <article class="loja-card-content2">
-        <a href="#">
-            <img src="images/produtos/controle_grape.webp" alt="image" id="controle-img-loja2">
-            <h4>Controle Gbox S</h4>
-            <p><b>R$ 299</b>  $129</p>
+            <img src="images/produtos/ia_2.0_grape.webp" alt="image" id="ia2-img-loja2">
+            <h4>IA 2.0</h4>
+            <p><b>R$ 399</b>  $189</p>
         </a>
       </article><!--loja-card-content-->
     </div><!--loja-card-->
