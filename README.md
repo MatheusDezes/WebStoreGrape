@@ -13,6 +13,8 @@ of the layout and the code itself. In this project I learned a lot about CSS and
 a responsive project can be.
 
 ## 🖥️ Project demonstration
+⭐ Deploy: [Open Site](https://grape-store-three.vercel.app/#)
+
 ![ezgif-2-9c4ca2fb39](https://github.com/MatheusDezes/Grape-Store/assets/165702309/86f39f4d-be46-4fac-ba70-04a674363cac)
 
 ## ⚙️ Tools
